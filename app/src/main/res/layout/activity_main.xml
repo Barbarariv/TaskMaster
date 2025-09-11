@@ -6,11 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/imageFilterView2"
-        android:layout_width="221dp"
-        android:layout_height="143dp"
-        app:srcCompat="@drawable/_0105769_user_login_or_access_authentication_icon"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="77dp" />
+    <TextView
+        android:id="@+id/txtBienvenido"
+        android:layout_width="275dp"
+        android:layout_height="46dp"
+        android:text="@string/txt_Bienvenido"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/btnLogin1"
+        android:layout_width="151dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701" />
 </androidx.constraintlayout.widget.ConstraintLayout>
