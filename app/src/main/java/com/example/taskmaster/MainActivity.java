@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private final String usuario = "admin;" ;
+    private final String Contraseña = "1234";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Login.class);
                 startActivity(intent);
             }
-                                    }
+        }
         );
+
+
     }
 }
